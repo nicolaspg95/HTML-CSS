@@ -1,0 +1,91 @@
+@charset "UTG-8" ;
+
+body {
+    background-color: #146152;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1 { 
+    text-align: center;
+}
+
+.loira {
+    color: #ffe100
+}
+
+header { 
+    background-color: #44803F;
+    padding: 10px;
+    margin: 10px;
+}
+
+header > nav {
+    background-color: #B4CF66;
+    margin: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: #FF5A33;
+}
+
+.material {
+    text-align: center;
+    font-weight: lighter;
+}
+
+article {
+    background-color: #B4CF66;
+    margin: 10px;
+    padding: 5px;
+    border-style: dashed;
+    box-shadow: black;
+}
+
+.reciclagem {
+    text-align: center;
+    color: #000000;
+
+}
+
+.texto01 {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.clique {
+    text-align: right;
+    font-size: 23px;
+    color: #483fbd;
+}
+
+.clique > a {
+    text-decoration: none;
+}
+
+.clique > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.nicolas {
+    color: #ffe100;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Trabalhando com midias dinâmicas, com diferentes tamanhos para diferentes telas.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/rdr2-300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/rdr2-700.png" type="image/png">
+        <img src="Imagens/rdr2-1000.png" alt="rdr2-1000">
+    </picture>
+
+    <audio controls autoplay>
+        <source src="midia/hinematov.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>

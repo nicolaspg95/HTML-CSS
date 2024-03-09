@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site!</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.226);
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            margin-right: 100px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 3px 4px 10px 2px rgba(255, 255, 255, 0.445);
+        }
+
+        p {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+        
+        #assuntos {
+            background-color: rgba(0, 0, 0, 0.226);
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        article {
+            background-color: rgba(0, 0, 0, 0.226);
+        }
+
+        article > h2 {
+            text-align: center;
+            color: red;
+        }
+
+        article > p {
+            text-align: justify;
+            margin: 10px;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        article > aside {
+            text-align: right;
+            font-size: 15px;
+            font-style: italic;
+            text-decoration: underline;
+            color: red;
+        }
+
+        .mundo {
+            text-align: right;
+            margin-right: 10px;
+            padding-top: 10px;
+        }
+
+        .brasil {
+            text-align: left;
+            margin: 20px;
+            padding-top: 10px;
+        }
+
+        .Carapicuiba {
+            text-align: left;
+            margin: 20px;
+            padding-top: 10px;
+        }
+
+        footer {
+            background-color: white;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+            
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 class="brasil">Nóticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum illo, eaque enim excepturi quia maxime ut, labore voluptate vero cum omnis? A nostrum fugiat eaque distinctio similique nemo, hic culpa!</p>
+                <aside>
+                    <p>Nicolas P.</p>
+                </aside>
+            </article>
+            <article>
+                <h2 class="mundo">Noticias do Mundo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At tenetur quia magni iusto eaque consectetur nam debitis facere numquam eius dicta, in, eveniet voluptate dolore porro hic minima cum quam?</p>
+                <aside>
+                    <p>Nicolas P.</p>
+                </aside>
+            </article>
+            <article>
+                <h2 class="Carapicuiba">Crush de escola</h2>
+                <p>Homem de apenas 19 anos, acaba afastando sua "crush" por dizer "não se iluda, eu sou homem de casamento", a menina acabou se assustando com o assunto, e não responde até hoje.<a href="#" style="color: blue;">Clique aqui para saber mais</a></p>
+                <aside>
+                    <p>Nicolas P.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong style="color: red; text-decoration: underline;">Nick</strong></p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>

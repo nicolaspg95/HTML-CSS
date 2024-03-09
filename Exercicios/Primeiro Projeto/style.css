@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(87, 206, 146);
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(17, 71, 17), rgb(159, 207, 181));
+    padding: 10px;
+    margin: 0px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: normal;
+}
+
+header > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+header > a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 70px;
+}
+
+div > h2 {
+    font-family: 'android';
+    font-size: 2em;
+    font-weight: normal;
+    color: rgb(6, 80, 6);
+}
+
+div.youtube { 
+    background-color: rgb(27, 78, 27);
+    
+}
+
+strong > h3.aprender {
+    background-color: rgb(23, 87, 42);
+    height: 40px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent: 20px;
+    font-size: 25px;
+    
+}
+
+div.box1 {
+    background-color: rgb(185, 216, 185);
+    text-align: justify;
+    box-shadow: 3px 5px 3px 1px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: rgb(21, 61, 21);
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.container {
+    width: 80px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
